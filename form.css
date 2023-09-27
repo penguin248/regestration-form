@@ -3,9 +3,41 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #1b1b42;
-    color: white
+    color: white;
+    font-family: Tahoma;
+    font-size: 16px;
+
 }
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 60vw;
+    min-width: 300px;
+}
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+    border-bottom: none;
+}
+input,
+textarea,
+select {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
